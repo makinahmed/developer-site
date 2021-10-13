@@ -1,0 +1,282 @@
+html {
+  font-size: 62.5%;
+}
+
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+img,
+b,
+u,
+i,
+label,
+caption,
+footer,
+header,
+menu,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+body {
+  font-size: 1.9rem;
+  color: rgb(104, 100, 100);
+}
+*img {
+  max-width: 100%;
+  display: block;
+}
+.about,
+.works,
+.service,
+.contact {
+  margin: 0 10rem;
+}
+
+footer,
+header,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  overflow-x: hidden;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+header {
+  height: 100vh;
+  max-width: 100%;
+
+  background-image: url("../images//banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.navigationbar h1 {
+  margin-left: 5rem;
+  margin-top: 2rem;
+  font-size: 3rem;
+  display: inline-block;
+}
+
+.navbar {
+  display: inline-block;
+  float: right;
+}
+
+.navbar li {
+  margin-top: 1rem;
+  display: inline-block;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 0 3rem;
+  font-size: 2rem;
+}
+.navbar li a:hover {
+  color: coral;
+}
+
+.bannerText {
+  width: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 19rem;
+  font-size: 3rem;
+  left: 30rem;
+  text-align: center;
+  color: white;
+  line-height: 1.4;
+}
+.banartext2 {
+  color: coral;
+  line-break: auto;
+}
+
+.about {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 18em;
+}
+
+.about h1 {
+  text-transform: uppercase;
+  margin: 3rem 0;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.about img {
+  float: left;
+  border: 2px solid coral;
+  border-radius: 50%;
+  padding-right: 1rem;
+  margin-right: 5rem;
+}
+.about p {
+  width: 80vw;
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.works {
+  margin-bottom: 4rem;
+}
+.works h2 {
+  padding-top: 5rem;
+  text-transform: uppercase;
+  color: coral;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+.works p {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.cat {
+  width: 400px;
+  height: 350px;
+}
+.images {
+  background-color: #2e3e4e;
+  color: rgb(194, 192, 188);
+  padding-bottom: 5rem;
+}
+
+.gallary {
+  margin-left: 5rem;
+}
+
+.gallary img {
+  padding: 0.5rem;
+}
+.arrow {
+  padding-top: 2rem;
+  margin: 0 50%;
+}
+.service {
+  margin-top: 3rem;
+  text-align: center;
+  padding: 0 10rem;
+}
+
+.service h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: coral;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+
+.showcase {
+  text-align: center;
+  width: 100%;
+  height: 40rem;
+  border: 1px slid black;
+}
+
+#srvc1 {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.showcase1 {
+  text-align: center;
+  float: left;
+  padding: 0 1rem;
+  width: 28%;
+  margin: 10rem 0;
+}
+
+.footer {
+  background-color: #2e3e4e;
+}
+
+.contact h1 {
+  text-transform: uppercase;
+  color: coral;
+  padding: 4rem;
+  font-size: 3rem;
+}
+
+.contact p {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  height: 20rem;
+}
+
+.contact {
+  width: 100%;
+  text-align: center;
+  height: 40rem;
+}
+
+.communication input,
+button {
+  display: inline-block;
+  background-color: #2e3e4e;
+  padding: 1rem;
+  margin: 1rem 4rem;
+}
+
+.hr {
+  width: 70%;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 2rem;
+  padding: 3rem 0;
+}
+
+.communication {
+  margin-left: 50rem;
+  margin-bottom: 5rem;
+}
+
+@media (min-height: 700px) {
+  .bannerText {
+    float: left;
+    text-overflow: none;
+  }
+}
